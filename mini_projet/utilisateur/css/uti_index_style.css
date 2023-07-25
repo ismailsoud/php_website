@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', 'sans-serif';
+}
+body{
+    background-color: black;
+}
+.header{
+    color: white;
+    display: block;
+    border-bottom: 4px solid white;
+    text-align: center;
+}
+.nav-bar{
+    background-color: black;
+    height: 5vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.links{
+    height: 5vh;
+    text-align: center;
+}
+.links a {
+    margin-top: 10px;
+    height: 5vh;
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+.menu_item:nth-of-type(1){
+    padding-right: 5vh;
+    border-right: 3px solid white;
+}
+.menu_item:nth-of-type(2){
+    padding-right: 5vh;
+    padding-left: 5vh;
+    border-right: 3px solid white;
+}
+.menu_item:nth-of-type(3){
+    padding-left: 5vh;
+}
+
+
+
+
+.inputs{
+    width: 40%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 35vh;
+    border-radius: 20px;
+}
+.inputs input{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    width: 70%;
+    height: 6vh;
+    margin-top: 4vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sub{
+    margin-top: 3vh;
+    width: 100%;
+    text-align: center;
+}
+.sub button{
+    width: 30%;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sub button:hover{
+    width: 31%;
+    height: 7vh;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+
+.navigation{
+    color: white;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+.navigation button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 3vh;
+    cursor: pointer;
+}
+.navigation button:hover{
+    background-color: white;
+    width: 5vh;
+    color: black;
+    border: none;
+    margin: 3vh;
+    cursor: pointer;
+}
+
+.disco{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.disco img{ 
+    width: 40vh;
+    height: 40vh;
+}
+
+
+.log{
+    text-align: center;
+    border-radius: 6px;
+    width: 30vh;
+    height: 10vh;
+    color: white;
+    position: absolute;
+    transform: translate(50%);
+    right: 15%;
+    top: 50%;
+    background-color: rgb(44, 37, 37);   
+}

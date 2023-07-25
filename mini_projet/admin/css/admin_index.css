@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+/* body{
+    background-color: black;
+} */
+
+.header{
+    color: black;
+    display: block;
+    border-bottom: 4px solid black;
+    text-align: center;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: red;
+
+}

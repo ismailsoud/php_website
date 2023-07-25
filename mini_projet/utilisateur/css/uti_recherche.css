@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: black;
+}
+
+.header{
+    color: white;
+    display: block;
+    border-bottom: 4px solid white;
+    text-align: center;
+}
+
+.nav-bar{
+    background-color: black;
+    height: 5vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.links{
+    height: 5vh;
+    text-align: center;
+}
+.links a {
+    margin-top: 10px;
+    height: 5vh;
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+.menu_item:nth-of-type(1){
+    padding-right: 5vh;
+    border-right: 3px solid white;
+}
+.menu_item:nth-of-type(2){
+    padding-right: 5vh;
+    padding-left: 5vh;
+    border-right: 3px solid white;
+}
+.menu_item:nth-of-type(3){
+    padding-left: 5vh;
+}
+
+
+.resultat{
+    margin-top: 20vh;
+    color: white;
+    text-align: center;
+}
+
+form{
+    margin-top: 20vh;
+    text-align: center;
+}
